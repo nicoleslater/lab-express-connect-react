@@ -1,6 +1,6 @@
 import { useEffect, useState} from "react";
 
-import CaptainLog from "./CaptainLog";
+// import CaptainLog from "./CaptainLog";
 
 const API = import.meta.env.VITE_BASE_URL
 
@@ -25,7 +25,7 @@ function CaptainLogs(){
                         </tr>
                     </thead>
                     <tbody>
-                        {captainLogs.map((captainLogs, index) => {
+                        {captainLogs.map((_captainLogs, index) => {
                             return <CaptainLog key={index} captainLog={captainLog} index={index} />;
                         })}
                     </tbody>
