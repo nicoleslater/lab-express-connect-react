@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "vite",
     "build": "react-scripts build",
     "test": "cypress open",
     "eject": "react-scripts eject"
