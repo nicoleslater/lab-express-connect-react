@@ -32,11 +32,7 @@ function CaptainLogDetails(){
 
 
     return (
-        <article>
-            <h2> 
-                {captainLog.isFavorite ? <span> </span>}
-            </h2>
-        </article>
+     console.log(captainLog)
 
     );
 }
