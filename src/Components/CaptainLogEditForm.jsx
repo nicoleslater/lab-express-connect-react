@@ -52,11 +52,6 @@ function CaptainLogEditForm(){
         event.preventDefault();
         updateCaptainLog();
     };
-
-    return (
-        <div className="Edit">
-            <form onSubmit={handleSubmit}>
-                <label htmlFor="name">Name:</label>
-            </form>
-        </div>
-    )
+    
+}
+}

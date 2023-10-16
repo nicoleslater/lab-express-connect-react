@@ -31,8 +31,8 @@ function CaptainLogDetails(){
     };
 
 
-    return (
-//    <Link>
+//     return (
+// //    <Link>
 
-    );
+//     );
 }
