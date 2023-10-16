@@ -32,7 +32,7 @@ function CaptainLogDetails(){
 
 
     return (
-     console.log(captainLog)
+//    <Link>
 
     );
 }
